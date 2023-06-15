@@ -1,0 +1,3 @@
+import AppOpener
+
+AppOpener.mklist()
