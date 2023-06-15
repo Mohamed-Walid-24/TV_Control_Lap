@@ -20,7 +20,7 @@ import AppOpener
 
 - You should start your python code with this line to get access to all library features 
 
----
+--- 
 
 ## Features
 
