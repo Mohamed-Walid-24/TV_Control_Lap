@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26f3d979-c074-4800-8e19-b3f212396c91" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../TV_Control_Lap_ard/IRremote.md" beforeDir="false" afterPath="$PROJECT_DIR$/../TV_Control_Lap_ard/IRremote.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TV_Control_Lap_ard/Testing/IRreceiver/IRreceiver.ino" beforeDir="false" afterPath="$PROJECT_DIR$/../TV_Control_Lap_ard/Testing/IRreceiver/IRreceiver.ino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppOpener.md" beforeDir="false" afterPath="$PROJECT_DIR$/AppOpener.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
