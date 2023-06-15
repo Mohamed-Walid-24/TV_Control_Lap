@@ -6,7 +6,7 @@
 
 ## Installation
 
-```python
+```cmd
 pip install appopener
 ```
 
