@@ -168,11 +168,10 @@ void loop() {
       // USE NEW 3.x FUNCTIONS
       IrReceiver.printIRResultShort(&Serial); // Print complete received data in one line
       IrReceiver.printIRSendUsage(&Serial);   // Print the statement required to send this data
-      
+
       IrReceiver.resume(); // Enable receiving of the next value
   }  
 }
-
 ```
 
 - Code is slightly modified from the following [Code](https://github.com/Arduino-IRremote/Arduino-IRremote/tree/master#new-4x-program) in the official [Documentation](https://github.com/Arduino-IRremote/Arduino-IRremote#readme)
