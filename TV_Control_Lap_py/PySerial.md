@@ -105,7 +105,6 @@ ard.readline().decode(encoding="utf-8").strip()
 > while True:
 >     output = ard.readline().decode(encoding="utf-8").strip()
 >     print(output)
-> 
 > ```
 > 
 > ```python
@@ -120,5 +119,79 @@ ard.readline().decode(encoding="utf-8").strip()
 --- 
 
 ### 3] Sending
+
+```c
+x = input("Command: ")
+ard.write(x.encode("utf-8"))
+```
+
+- `write` Send data to arduino in bytes
+
+- `encode` Convert string to bytes
+
+- `b"Hello"` Another way to convert string to bytes
+
+> ##### Example
+> 
+> - Arduino Code:
+> 
+> ```c
+> # define led 13
+> 
+> void setup() {
+>   // put your setup code here, to run once:
+>   pinMode(led, OUTPUT);
+>   Serial.begin(9600);
+> 
+> }
+> 
+> void loop() {
+>   // put your main code here, to run repeatedly:
+>   if (Serial.available() > 0){
+>     String input = Serial.readString();
+>     input.trim();
+>     if (input=="on"){
+>       Serial.println("The led is on");
+>       digitalWrite(led, HIGH);
+>       }
+>     else if (input=="off"){
+>       Serial.println("The led is off");
+>       digitalWrite(led, LOW);
+>     }
+>     else{
+>       Serial.println("No such command");
+>     }
+> }
+> }
+> ```
+> 
+> - Python Code:
+> 
+> ```python
+> import serial
+> 
+> port = "com16"
+> baudRate = 9600
+> 
+> ard = serial.Serial(port="com16", baudrate=9600)
+> while True:
+>     x = input("Command: ")
+>     ard.write(x.encode("utf-8"))
+>     output = ard.readline().decode(encoding="utf-8").strip()
+>     print("Arduino>>> ", output)
+> ```
+> 
+> ```python
+> Command: on
+> Arduino>>>  The led is on
+> Command: off
+> Arduino>>>  The led is off
+> Command: afa
+> Arduino>>>  No such command
+> Command: on
+> Arduino>>>  The led is on
+> ```
+
+---
 
 
