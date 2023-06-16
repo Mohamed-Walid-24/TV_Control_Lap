@@ -60,7 +60,7 @@ AppOpener.give_appnames()
 > print(AppNames)
 > ```
 > 
-> ![](https://github.com/Mohamed-Walid-24/TVControlLap/blob/main/Pics/AppNames.png?raw=true)
+> ![](https://github.com/Mohamed-Walid-24/TV_Control_Lap/blob/main/Pics/AppNames.png?raw=true)
 > 
 > - `list` change output to a list to easily work with
 > 
