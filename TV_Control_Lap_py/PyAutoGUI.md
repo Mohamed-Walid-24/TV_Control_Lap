@@ -245,7 +245,7 @@ pyautogui.platformModule.keyboardMapping.keys()
 > print(tuple(keys))
 > ```
 > 
-> ![](https://github.com/Mohamed-Walid-24/TVControlLap/blob/main/Pics/Keys.png?raw=true)
+> ![](https://github.com/Mohamed-Walid-24/TV_Control_Lap/blob/main/Pics/Keys.png?raw=true)
 > 
 > - You can also take a look from the following link [KeyBoard_Keys](https://pyautogui.readthedocs.io/en/latest/keyboard.html#keyboard-keys)
 
