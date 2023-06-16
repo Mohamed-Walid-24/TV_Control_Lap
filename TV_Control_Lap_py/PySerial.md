@@ -193,5 +193,3 @@ ard.write(x.encode("utf-8"))
 > ```
 
 ---
-
-
